@@ -35,15 +35,21 @@
 	},
 	{
 		"name": "Synagogue",
-		"replaces": "Temple",
+		"replaces": "Monument",
 		"uniqueTo": "Israel", 
-		"faith": 2,
-		"happiness": 1,
-		"gold": 2,
-		"cost": 100,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Shrine"
-		"requiredTech": "Theology"
+		"cityStrength": 12,
+		"cityHealth": 35,
+		"faith": 10,
+		"happiness": 10,
+		"science": 10,
+		"production": 12,
+		"culture": 15,
+		"gold": 75,
+		"food": 12,
+		"percentStatBonus": {"production": 50},
+		"cost": 10,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [5] [Iron]", "Provides [5] [Horses]"]
 	},
 	{
 		"name": "Sphinx Gate",
